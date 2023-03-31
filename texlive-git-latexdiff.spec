@@ -1,6 +1,6 @@
 Name:		texlive-git-latexdiff
 Version:	54732
-Release:	1
+Release:	2
 Summary:	Call latexdiff on two Git revisions of a file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/git-latexdiff
