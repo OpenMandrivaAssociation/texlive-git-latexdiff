@@ -3,7 +3,7 @@ Version:	54732
 Release:	2
 Summary:	Call latexdiff on two Git revisions of a file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/git-latexdiff
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/git-latexdiff
 License:	bsd2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/git-latexdiff.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/git-latexdiff.doc.r%{version}.tar.xz
