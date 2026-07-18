@@ -1,5 +1,6 @@
 %global tl_name git-latexdiff
 %global tl_revision 75878
+%global tl_bin_links git-latexdiff:%{_texmfdistdir}/scripts/git-latexdiff/git-latexdiff
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(git-latexdiff.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 git-latexdiff is a tool to graphically visualize differences between
